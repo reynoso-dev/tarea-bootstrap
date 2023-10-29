@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tarea de Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="Icon" type="image/PNG" href="Bootstrap_logo.svg.png">
+</head>
+
+<body>
+
+  <!--Área donde se establece el navbar-->
+  <nav class="navbar navbar-expand-lg bg-dark-subtle ">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-4 fs-3" href="#">Lorem Ipsum</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 gap-3 ms-4 fs-5">
+          <form class="d-md-flex d-lg-none" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Dolor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sit</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Amet</a>
+          </li>
+          <li class="nav-item dropdown d-lg-none">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Opciones
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Opción 1</a></li>
+              <li><a class="dropdown-item" href="#">Opción 2</a></li>
+              <li><a class="dropdown-item" href="#">Opción 3</a></li>
+              <li><a class="dropdown-item" href="#">Opción 4</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-none d-lg-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--Área para el carrusel de texto-->
+
+  <h1 class="text-center mt-1 d-lg-block">Lorem Ipsum...</h1>
+  <div id="carouselExampleInterval" class="d-lg-block carousel slide my-2 text-center fs-5 w-25 mx-auto"
+    data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <p>Nesciunt numquam mollitia ut impedit inventore</p>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <p>Veritatis in nihil officiis lorem ipsum dolor sit ametr </p>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <main class="d-lg-flex justify-content-between container">
+
+    <!--Aquí están los botones que, al modificar el tamaño, desaparecerán y se irán al dropdown-->
+    <section class="container w-50 d-none d-lg-flex">
+      <div class="row col-12">
+        <div class="col my-4"> 
+          <div class="align-items-start btn-group-vertical w-100" role="group" aria-label="Vertical button group">
+            <a class="w-100 border rounded-1 border-secondary text-black text-lg-start p-3">Opcion 1</a>
+            <a class="w-100 border rounded-1 border-secondary text-black text-lg-start p-3">Opcion 2</a>
+            <a class="w-100 border rounded-1 border-secondary text-black text-lg-start p-3">Opcion 3</a>
+            <a class="w-100 border rounded-1 border-secondary text-black text-lg-start p-3">Opcion 4</a>
+          </div>
+        </div>
+    </section>
+
+    <!--Área donde se visualizan las grillas con su respectivo texto-->
+    <section class="container d-md-block d-lg-block">
+      <div class="row row-cols-md-2 row-cols-lg-3 my-3">
+        <div class="col-lg-4 bg-body-secondary mb-2 mt-2 h-25">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Et tortor at risus viverra adipiscing at in. Leo integer malesuada nunc vel risus commodo.
+            Tempor id eu nisl nunc mi ipsum faucibus. 
+            
+          </p>
+        </div>
+        <div class="col-lg-4 bg-body-secondary mb-2 mt-2 h-25">
+          <p>
+            Ut diam quam nulla porttitor massa id. Diam donec adipiscing tristique risus nec feugiat. 
+            Lacus laoreet non curabitur gravida arcu. Tristique risus nec feugiat 
+            in fermentum posuere urna nec tincidunt.
+            Egestas maecenas pharetra convallis posuere morbi. Sed viverra tellus in hac.
+          </p>
+        </div>
+        <div class="col-lg-4 bg-body-secondary mb-2 mt-2 h-25">
+          <p>
+            Faucibus scelerisque eleifend donec pretium vulputate.
+            Morbi tincidunt ornare massa eget egestas.
+            Blandit aliquam etiam erat velit scelerisque in. 
+            Ut sem viverra aliquet eget sit amet tellus cras adipiscing. 
+            Nibh nisl condimentum id venenatis a.
+            Vitae ultricies leo integer.
+          </p>
+        </div>
+        <div class="col-lg-4 bg-body-secondary mb-2 mt-2 h-25">
+          <p>
+            Sit amet risus nullam eget felis eget.
+            Nullam eget felis eget nunc lobortis mattis. 
+            Suspendisse faucibus interdum posuere lorem. 
+            Massa enim nec dui nunc mattis enim ut tellus elementum.
+            Mauris in aliquam sem fringilla. Sed velit dignissim sodales ut eu sem integer. 
+          </p>
+        </div>
+        <div class="col-lg-4 bg-body-secondary mb-2 mt-2 h-25">
+          <p>
+            Odio euismod lacinia at quis risus sed vulputate odio.
+             Pharetra pharetra massa massa ultricies mi quis. 
+             Consectetur libero id faucibus nisl tincidunt eget.
+             Lacus sed viverra tellus in hac habitasse platea dictumst. 
+             Interdum varius sit amet mattis vulputate enim. 
+          </p>
+        </div>
+        <div class="col-lg-4 bg-body-secondary mb-2 mt-2 h-25">
+          <p>
+            Nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae. 
+            Et tortor at risus viverra adipiscing. 
+            Porta non pulvinar neque laoreet suspendisse interdum consectetur.
+            Bibendum est ultricies integer quis auctor elit sed vulputate. 
+            Quis varius quam.
+          </p>
+        </div>
+        <div class="col-lg-4 bg-body-secondary mb-2 mt-2 h-25">
+          <p>
+            Vitae semper quis lectus nulla at. 
+            Vestibulum lectus mauris ultrices eros.
+            Vitae et leo duis ut diam quam nulla porttitor massa. 
+            Feugiat in ante metus dictum at tempor commodo ullamcorper. 
+            Nibh praesent tristique magna sit amet purus. 
+          </p>
+        </div>
+        <div class="col-lg-4 bg-body-secondary mt-2 h-25">
+          <p>
+            Id cursus metus aliquam eleifend mi in.
+            Neque sodales ut etiam sit amet nisl.
+            Odio morbi quis commodo odio aenean sed adipiscing.
+            Aliquam etiam erat velit scelerisque in dictum.
+            Consequat interdum varius sit amet mattis vulputate enim.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
